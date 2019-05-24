@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBox.Figures", "MBox.Figures\MBox.Figures.csproj", "{0CE862E3-12B0-4627-A6BF-FF76DDB18CB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBox.Figures.Tests", "MBox.Figures.Tests\MBox.Figures.Tests.csproj", "{1D256CB1-9E74-4E69-A0E3-710B09F2D604}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CE862E3-12B0-4627-A6BF-FF76DDB18CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE862E3-12B0-4627-A6BF-FF76DDB18CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE862E3-12B0-4627-A6BF-FF76DDB18CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE862E3-12B0-4627-A6BF-FF76DDB18CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D256CB1-9E74-4E69-A0E3-710B09F2D604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D256CB1-9E74-4E69-A0E3-710B09F2D604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D256CB1-9E74-4E69-A0E3-710B09F2D604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D256CB1-9E74-4E69-A0E3-710B09F2D604}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D9B72FF-760E-4244-B5BE-91C8C502956A}
+	EndGlobalSection
+EndGlobal
