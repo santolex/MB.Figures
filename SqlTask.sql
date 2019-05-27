@@ -10,7 +10,7 @@ FROM Products p
 
 или так
 
-SELECT p.Name ProductName ,a.Name CategoryName
+SELECT p.Name ProductName ,a.CategoryName CategoryName
 FROM Products p
     (SELECT p.ProductId,c.CategoryName
      FROM ProductCategories pc 
