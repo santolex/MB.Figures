@@ -12,7 +12,7 @@ FROM Products p
 
 SELECT p.Name ProductName ,a.CategoryName CategoryName
 FROM Products p
-    (SELECT p.ProductId,c.CategoryName
+    (SELECT pc.ProductId,c.CategoryName
      FROM ProductCategories pc 
         INNER JOIN Categories c ON pc.CategoryId=c.id) a
     LEFT JOIN ON a.ProductId=p.id
